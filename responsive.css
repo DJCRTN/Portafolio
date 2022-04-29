@@ -1,0 +1,357 @@
+@media screen and (max-width: 480px){
+
+    .caja{
+        align-items: center;
+    }
+
+    .minombre{
+        padding-right: 40px;
+        padding-left: 0;
+        font-size: 27px
+    }
+
+    .menu{
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        padding: 5px;
+    }
+
+    ul a{
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .t-encabezado{
+        width: auto;
+    }
+
+    .titulo{
+        width: 215px;
+        font-size: 20px;
+    }
+
+    .sub-encabezado{
+        width: 215px;
+        font-size: 15px;
+    }
+
+    .banner{
+        padding: 3px;
+        width: 25%;
+    }
+
+    .banner:hover{
+        width: 30%;
+    }
+
+    
+    #sobremi{
+        padding: 0.5rem 8vw;
+    }
+
+    .titulo-2{
+        font-size: 1.3em;
+    }
+
+    .p-sobremi{
+        font-size: 1.2em;
+    }
+
+    /* formacion */
+    #formaciones{
+        padding: 0.5rem 8vw;
+    }
+
+    .titulo-3{
+        font-size: 1.3em;
+    }
+
+    .p-formaciones {
+        font-size: 1.2em;
+    }
+
+    /*img formaciones */
+    .column {
+        padding: 5px;
+    }
+
+    .box-img {
+        border-radius: 20px;
+        width: 90px;
+        height: 65px;
+    }
+    
+    .box-img:hover {
+        transition: 0.7s;
+        border-radius: 20px 5px;
+    }
+    
+    .box-titulo {
+        padding-top: 0;
+        font-size: 10px;
+    }
+    
+    .box-img-2 {
+        border-radius: 10px;
+        width: 80px
+    }
+    
+    .box-img-2:hover {
+        border-radius: 20px 10px;
+    }
+    
+    .box-titulo-2 {
+        padding-top: 0;
+        font-size: 15px;
+    }
+    
+    .box-img-3 {
+        width: 90px;
+    }
+    
+    
+    .box-titulo-3 {
+        padding-top: 0;
+        font-size: 12px;
+        padding-left: 15%;
+    }
+
+    /* SKILLS */
+    #t-skills {
+        font-size: 1.3em;
+    }
+    
+    .column-2{
+        padding: 5px;
+    }
+    
+    .skills-img-1 {
+        width: 85px;
+        height: 95px;
+    }
+    
+    .box-skills-1 {
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    
+    .skills-img-2 {
+        width: 85px;
+        height: 95px;
+    }
+
+    .box-skills-2 {
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    
+    .skills-img-3 {
+        padding-left: 5px;
+        padding-top: 18px;
+        width: 80px;
+        height: 95px;
+    }
+    
+    .box-skills-3 {
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    
+    .skills-img-4 {
+        height: 90px;
+    }
+    
+    .box-skills-4 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+    .skills-img-5 {
+        width: 85px;
+        height: 80px;
+    }
+    
+    .skills-img-5:hover {
+        border-radius: 20px;
+    }
+    
+    .box-skills-5 {
+        font-size: 15px;
+    }
+    
+    /* Hobbies */
+    #t-hobbies {
+        font-size: 1.3em;
+    }
+
+    .column-3{
+        padding: 5px;
+    }
+    
+    .hobbies-img-1 {
+        width: 85px;
+        height: 80px;
+    }
+    
+    .hobbies-img-1:hover {
+        border-radius: 30px;
+    }
+    
+    .box-hobbies-1 {
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    
+    .hobbies-img-2 {
+        width: 85px;
+        height: 80px;
+    }
+    
+    .box-hobbies-2 {
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    
+    .hobbies-img-3 {
+        width: 70px;
+        height: 65px;
+        border-radius: 15px;
+        margin-left: 10px;
+    }
+    
+    .hobbies-img-3:hover {
+        border-radius: 15px 8px;
+    }
+    
+    .box-hobbies-3 {
+        padding-top: 11px;
+        font-size: 15px;
+        padding-left: 40%;
+    }
+    
+    .hobbies-img-4 {
+        width: 85px;
+        height: 75px;
+        padding-left: 9%;
+    }
+    
+    .box-hobbies-4 {
+        padding-top: 5px;
+        font-size: 15px;
+    }
+    
+    .hobbies-img-5 {
+        width: 90px;
+        height: 80px;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    
+    .hobbies-img-5:hover {
+        border-radius: 10px 5px;
+    }
+    
+    .box-hobbies-5 {
+        font-size: 15px;
+        padding-left: 25%;
+    }
+
+    /* Project */ 
+    #t-project {
+        font-size: 1.3em;
+    }
+
+    .project-1{
+        margin: 0rem;
+        margin-left: 0px;
+    }
+
+    .container-project {
+        padding:0px;
+    }
+
+    .img-project-1 {
+        width: 300px;
+        box-shadow: 7px 7px 20px 0px cyan;
+    }
+
+    .btn-1 {
+        margin-right: 11px;
+    }
+
+    .btn-1-project {
+        padding: 5px 5px;
+        font-size: 0.8rem;
+        box-shadow: 3px 3px 20px 0px cyan;
+    }
+
+    .project-2 {
+        margin: 0rem;
+        margin-right: 0px;
+    }
+
+    .container-project-2{
+        padding: 0px;
+    }
+
+    .t-project-2 {
+        font-size: 1.3em;
+        padding: 8%;
+    }
+
+    .img-project-2 {
+        width: 300px;
+        box-shadow: -3px 3px 20px 0px cyan;
+    }
+
+    .btn-2 {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .btn-2-project {
+        padding: 5px 5px;
+        font-size: 0.8rem;
+        box-shadow: -3px 3px 20px 0px cyan;
+    }
+
+    /* contact */
+    #t-contact{
+        font-size: 1.3em;
+        color: white;
+    }
+
+    form{
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .form-flex {
+        width: 340px;
+        margin: auto;
+        padding: 10px; 
+    }
+
+    textarea{
+        width: 300px;
+    }
+
+    .end-banner{
+        padding: 10px;
+    }
+
+    .autor {
+        padding: 10px
+    }
+    
+    .gmail {
+        padding-left: 20%;
+    }
+
+    .redes{
+        justify-content: normal
+    }
+}
+

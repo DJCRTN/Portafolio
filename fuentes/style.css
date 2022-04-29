@@ -1,0 +1,149 @@
+
+@font-face {
+    font-family:HIROMISAKE;
+    src: url(fuentes/HIROMISAKE.ttf);
+}
+
+header{
+    background-color:rgb(0, 0, 0);
+    padding: 20px 0;
+}
+
+header:hover{
+    background: url(black-glitch-effect-digital-noise-texture-background.jpg);
+    background-size: 100%;
+}
+.caja{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.minombre{
+    font-family:HIROMISAKE;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.minombre:hover{
+    transition:1s;
+    color: aqua;
+}
+
+.menu{
+    font-family:HIROMISAKE ;
+    position: absolute;
+    top:10px;
+    right: 60px;
+}
+
+nav li{
+    color: #ffffff;
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav li:hover{
+    transition:1s;
+    color: aqua;
+    text-decoration: underline;
+}
+
+main{
+    background-color:rgb(214, 214, 214)
+}
+
+.encabezado{
+    padding: 11em 0;
+    width: 940px;
+    margin: 0px;
+}
+
+.titulo{
+    font-family:HIROMISAKE ;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 30px;
+}
+
+.titulo-encabezado{
+    font-family:HIROMISAKE;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-size: 30px;
+
+}
+
+.encabezado .banner{
+    background: url(black-glitch-effect-digital-noise-texture-background.jpg);
+    border-radius: 1000px;
+    width: 15%;
+    position: absolute;
+    padding: 10px ;
+    left:75%;
+    float: left;
+    top: 20%;
+}
+
+.encabezado .banner:hover{
+    transition:0.7s;
+    background: url(black-glitch-effect-digital-noise-texture-background.jpg);
+    border-radius: 15px;
+    width: 20%;
+}
+
+.sobremi{
+    padding: 11em 0;
+    width: 940px;
+    margin: 0px;
+}
+
+.titulo-2{
+    font-family:HIROMISAKE;
+    text-align: center;
+    font-size: 2.0em;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.p-sobremi{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5em;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    width: 940px
+}
+
+.titulo-3{
+    font-family:HIROMISAKE;
+    text-align: center;
+    font-size: 2.0em;
+    position: absolute;
+    top: 75%;
+    left: 28%;
+}
+
+.p-formaciones{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5em;
+    position: absolute;
+    top: 82%;
+    left: 10%;
+    width: 940px
+
+}
