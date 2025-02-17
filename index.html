@@ -140,38 +140,65 @@
         </section>
     </main>
     <footer>
-        <h2 id="t-contact">contact</h2>
-            <form action="enviar.php" method="post">
-                <ul class="form-flex">
-                    <li>
-                        <label for="name" class="t-box">Nombre:</label>
-                        <input type="text" id="name" name="name" placeholder="Introduzca su nombre" class="f-box">
-                    </li>
-                    <li>
-                        <label for="mail" class="t-box">Correo electrónico:</label>
-                        <input type="email" id="mail" name="mail" placeholder="email@dominio.com" class="f-box">
-                    </li>
-                    <li>
-                        <label for="msg" class="t-box">Mensaje:</label>
-                        <textarea id="msg" name="message" cols="50" rows="5" placeholder="Deje su mensaje :D" class="f-box"></textarea>
-                    </li>       
-                    <li>
-                        <input type="submit" class="submit" value="Enviar 🚀">
-                    </li>
-                </ul>
-            </form>
-    <section class="end-banner">
-        <div class="redes">
-            <div class="instagram-box">
-                <a href="https://www.instagram.com/jahaziel.08/"><img src="imagenes/Redes/logo-instagram-png-2429.png" class="instagram"></a>
-            </div>
-            <div class="github-box">
-                <a href="https://github.com/DJCRTN"><img src="imagenes/Redes/512x512-logo-27170.png" class="github"></a>
-            </div>
-        </div>
-        <h2 class="autor">© Jahaziel Salas Rodriguez</h2>
-        <a class="gmail">jahazielsr08@gmail.com</a>
-    </section>
+<!-- Sección de contacto -->
+<h2 id="t-contact">contact</h2>
+<form id="contact-form">
+  <ul class="form-flex">
+    <li>
+      <label for="name" class="t-box">Nombre:</label>
+      <input type="text" id="name" name="name" placeholder="Introduzca su nombre" class="f-box" required>
+    </li>
+    <li>
+      <label for="email" class="t-box">Correo electrónico:</label>
+      <input type="email" id="email" name="email" placeholder="email@dominio.com" class="f-box" required>
+    </li>
+    <li>
+      <label for="msg" class="t-box">Mensaje:</label>
+      <textarea id="msg" name="message" cols="50" rows="5" placeholder="Deje su mensaje :D" class="f-box" required></textarea>
+    </li>       
+    <li>
+      <input type="submit" class="submit" value="Enviar 🚀">
+    </li>
+  </ul>
+</form>
+
+<section class="end-banner">
+  <div class="redes">
+    <div class="instagram-box">
+      <a href="https://www.instagram.com/jahaziel.08/">
+        <img src="imagenes/Redes/logo-instagram-png-2429.png" class="instagram" alt="Instagram">
+      </a>
+    </div>
+    <div class="github-box">
+      <a href="https://github.com/DJCRTN">
+        <img src="imagenes/Redes/512x512-logo-27170.png" class="github" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <h2 class="autor">© Jahaziel Salas Rodriguez</h2>
+  <a class="gmail">jahazielsr08@gmail.com</a>
+</section>
     </footer>
+
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+<script type="text/javascript">
+  (function(){
+    emailjs.init('YOUR_USER_ID');
+  })();
+</script>
+
+<script type="text/javascript">
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    emailjs.sendForm('service_qcl89zv', 'template_hde0uw9', this)
+      .then(function() {
+        alert('¡Mensaje enviado exitosamente!');
+        document.getElementById('contact-form').reset();
+      }, function(error) {
+        alert('Ocurrió un error al enviar el mensaje: ' + JSON.stringify(error));
+      });
+  });
+</script>
 
 </body>
