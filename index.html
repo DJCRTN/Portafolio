@@ -191,7 +191,7 @@
   document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault(); 
 
-    emailjs.sendForm('service_qcl89zv', 'template_hde0uw9', this)
+    emailjs.send("service_qcl89zv","template_hde0uw9");
       .then(function() {
         alert('¡Mensaje enviado exitosamente!');
         document.getElementById('contact-form').reset();
