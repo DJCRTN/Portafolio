@@ -738,3 +738,16 @@ nav a { padding: 6px 8px; display: inline-block; }
 
 /* Subtle fix: prevent huge rounded banner from clipping on small widths */
 .banner { max-width: 320px; }
+
+
+/* === Hover smoothing === */
+a, button, .btn-1-project, .btn-2-project, .submit, .banner, .icon-social, .img-project-1, .img-project-2 {
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* === Remove unwanted grey background in formaciones === */
+#formaciones, .formaciones, .formacion {
+  background: none !important;
+  box-shadow: none !important;
+}
