@@ -355,3 +355,16 @@
     }
 }
 
+
+
+/* === Small responsive tweaks === */
+@media screen and (max-width: 480px){
+  /* Center footer email fully on tiny screens */
+  .gmail { padding-left: 0 !important; text-align: center; }
+
+  /* Make header stack a bit nicer if things wrap */
+  .caja { gap: 8px; flex-wrap: wrap; }
+
+  /* Ensure project buttons don't overflow */
+  .btn-1, .btn-2 { margin: 8px 0 !important; }
+}
